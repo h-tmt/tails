@@ -53,14 +53,14 @@ header p {
   line-height: 100px; }
 
 .win {
-  font-size: 10px;
+  font-size: 30px;
   background: pink;
   border-radius: 50%;
   -webkit-transform: rotate(-360deg);
           transform: rotate(-360deg); }
 
 .lose {
-  font-size: 12px;
+  font-size: 30px;
   -webkit-transform: scale(0.65) rotate(135deg);
           transform: scale(0.65) rotate(135deg); }
 /*# sourceMappingURL=style.css.map */
