@@ -47,7 +47,7 @@ header p {
   background-color: skyblue;
   cursor: pointer;
   -webkit-transition: 0.8s;
-  transition: 0.8s;
+  transition: 2s;
   margin: 8px 8px;
   text-align: center;
   line-height: 100px; }
@@ -55,10 +55,12 @@ header p {
 .win {
   background: pink;
   border-radius: 50%;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg); }
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
 
 .lose {
   -webkit-transform: scale(0.9);
-          transform: scale(0.9); }
+          transform: scale(0.9);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);}
 /*# sourceMappingURL=style.css.map */
