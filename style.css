@@ -46,7 +46,7 @@ header p {
   height: 100px;
   background-color: skyblue;
   cursor: pointer;
-  -webkit-transition: 0.8s;
+  -webkit-transition: 2s;
   transition: 2s;
   margin: 8px 8px;
   text-align: center;
