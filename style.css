@@ -59,8 +59,8 @@ header p {
   font-size: 30px;
   background: pink;
   border-radius: 50%;
-  -webkit-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
+  -webkit-transform: scale(0.8) rotate(-360deg);
+          transform: scale(0.8) rotate(-360deg); }
 
 .lose {
   font-size: 20px;
