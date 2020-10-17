@@ -37,7 +37,7 @@
     <script>
         'use strict';
 
-        const num = 6;
+        const num = 3;
         const winner = Math.floor(Math.random() * num);
 
         for (let i = 0; i < num; i++) {
@@ -47,10 +47,10 @@
 
             div.addEventListener('click', () => {
                 if (i === winner) {
-                    div.textContent = 'Win!';
+                    div.textContent = 'Okay!';
                     div.classList.add('win');
                 } else {
-                    div.textContent = 'Lose!';
+                    div.textContent = 'ダメ～!';
                     div.classList.add('lose');
                 }
             });
