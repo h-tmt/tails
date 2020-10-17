@@ -41,9 +41,6 @@ header p {
     color: #000;
     padding-bottom: 20px; }
 
-#wrap {
-  width: 90%;
-
 .box {
   width: 100px;
   height: 100px;
@@ -56,7 +53,7 @@ header p {
   line-height: 100px; }
 
 .win {
-  font-size: 30px;
+  font-size: 25px;
   background: pink;
   border-radius: 50%;
   -webkit-transform: scale(0.8) rotate(-360deg);
