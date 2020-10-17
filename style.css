@@ -53,6 +53,7 @@ header p {
   line-height: 100px; }
 
 .win {
+  margin-right: 0;
   font-size: 25px;
   background: pink;
   border-radius: 50%;
